@@ -49,4 +49,75 @@
   549  ls
   550  vim commands
   551  history
+  572  git branch
+  573  git log
+  574  git checkout feature
+  575  git log
+  576  git log --oneline
+  577  git log --oneline
+  578  git checkout -b head-learning
+  579  git log --oneline
+  580  git checkout 53138d2
+  581  git log --oneline
+  582  ls
+  583  touch dummy king lord kite
+  584  ls
+  585  git status
+  586  git add dummy king kite lord
+  587  git status
+  588  git commit -m "Learning HEAD"
+  589  git status
+  590  git switch -c head-learning2
+  591  git branch
+  592  ls
+  593  git checkout head-learning
+  594  ls
+  595  git log
+  596  git checkout head-learning2
+  597  git log
+  598  git remote -v
+  599  git commit --amend
+  600  git log
+  601  $ git branch newImage
+  602  git branch newImage
+  603  git branch
+  604  git checkout newImage
+  605  ls
+  606  git checkout feature
+  607  git status
+  608  git fetch
+  609  git status
+  610  git pull
+  611  git diff
+  612  vim fetch
+  613  git diff
+  614  vim fetch
+  615  git diff
+  616  git log --oneline
+  617  git diff 5aabe90 567c2b7
+  618  LS
+  619  VIM fetch
+  620  git add
+  621  git add .
+  622  git commit -m "Merge conflict"
+  623  git push
+  624  cat fetch
+  625  $ git reflog
+  626  git reflog
+  627  touch stash
+  628  git status
+  629  git checkout main '
+  630  git checkout main
+  631  git checkout main feature
+  632  git checkout feature
+  633  git status
+  634  git add stash
+  635  git status
+  636  git checkout feature
+  637  git checkout main
+  638  git stash list
+  639  git checkout feature
+  640  git stash list
+  641  git status
+  642  git stash
 
