@@ -1,123 +1,123 @@
-501  ssh-keygen -t rsa
-  502  cat /c/Users/MITHUN/.ssh/id_rsa.pub
-  503  git clone git@github.com:mithuns1986/github-learning.git
-  504  ls -ltrh
-  505  cd github-learning/
-  506  ls
-  507  cat README.md
-  508  ls -la
-  509  cat .gitignore
-  510  cd .git
-  511  ls -la
-  512  cd ..
-  513  ls -la
-  514  ls
-  515  vim README.md
-  516  git add README.md
-  517  git status
-  518  vim README.md
-  519  git status
-  520  git add README.md
-  521  git commit -m "Modified README.md file"
-  522  cat README.md
-  523  git push
-  524  git status
-  525  git branch
-  526  git pull
-  527  git status
-  528  git checkout feature
-  529  ls
-  530  cat README.md
-  531  git checkout -b feature/jira-1236
-  532  git checkout -b jira-1236
-  533  cat README.md
-  534  touch app.py
-  535  vim app.py
-  536  python3 app.py
-  537  git status
-  538  git app.py
-  539  git add app.py
-  540  git commit -m "Added app.py"
-  541  git push
-  542  git push --set-upstream origin jira-1236
-  543  git checkout main
-  544  git branch -d jira-1236
-  545  git branch
-  546  cd .git
-  547  ls
-  548  ls -l HEAD
-  549  ls
-  550  vim commands
-  551  history
-  572  git branch
-  573  git log
-  574  git checkout feature
-  575  git log
-  576  git log --oneline
-  577  git log --oneline
-  578  git checkout -b head-learning
-  579  git log --oneline
-  580  git checkout 53138d2
-  581  git log --oneline
-  582  ls
-  583  touch dummy king lord kite
-  584  ls
-  585  git status
-  586  git add dummy king kite lord
-  587  git status
-  588  git commit -m "Learning HEAD"
-  589  git status
-  590  git switch -c head-learning2
-  591  git branch
-  592  ls
-  593  git checkout head-learning
-  594  ls
-  595  git log
-  596  git checkout head-learning2
-  597  git log
-  598  git remote -v
-  599  git commit --amend
-  600  git log
-  601  $ git branch newImage
-  602  git branch newImage
-  603  git branch
-  604  git checkout newImage
-  605  ls
-  606  git checkout feature
-  607  git status
-  608  git fetch
-  609  git status
-  610  git pull
-  611  git diff
-  612  vim fetch
-  613  git diff
-  614  vim fetch
-  615  git diff
-  616  git log --oneline
-  617  git diff 5aabe90 567c2b7
-  618  LS
-  619  VIM fetch
-  620  git add
-  621  git add .
-  622  git commit -m "Merge conflict"
-  623  git push
-  624  cat fetch
-  625  $ git reflog
-  626  git reflog
-  627  touch stash
-  628  git status
-  629  git checkout main '
-  630  git checkout main
-  631  git checkout main feature
-  632  git checkout feature
-  633  git status
-  634  git add stash
-  635  git status
-  636  git checkout feature
-  637  git checkout main
-  638  git stash list
-  639  git checkout feature
-  640  git stash list
-  641  git status
-  642  git stash
+ssh-keygen -t rsa
+cat /c/Users/MITHUN/.ssh/id_rsa.pub
+git clone git@github.com:mithuns1986/github-learning.git
+ls -ltrh
+cd github-learning/
+ls
+cat README.md
+ls -la
+cat .gitignore
+cd .git
+ls -la
+cd ..
+ls -la
+ls
+vim README.md
+git add README.md
+git status
+vim README.md
+git status
+git add README.md
+git commit -m "Modified README.md file"
+cat README.md
+git push
+git status
+git branch
+git pull
+git status
+git checkout feature
+ls
+cat README.md
+git checkout -b feature/jira-1236
+git checkout -b jira-1236
+cat README.md
+touch app.py
+vim app.py
+python3 app.py
+git status
+git app.py
+git add app.py
+git commit -m "Added app.py"
+git push
+git push --set-upstream origin jira-1236
+git checkout main
+git branch -d jira-1236
+git branch
+cd .git
+ls
+ls -l HEAD
+ls
+vim commands
+history
+git branch
+git log
+git checkout feature
+git log
+git log --oneline
+git log --oneline
+git checkout -b head-learning
+git log --oneline
+git checkout 53138d2
+git log --oneline
+ls
+touch dummy king lord kite
+ls
+git status
+git add dummy king kite lord
+git status
+git commit -m "Learning HEAD"
+git status
+git switch -c head-learning2
+git branch
+ls
+git checkout head-learning
+ls
+git log
+git checkout head-learning2
+git log
+git remote -v
+git commit --amend
+git log
+$ git branch newImage
+git branch newImage
+git branch
+git checkout newImage
+ls
+git checkout feature
+git status
+git fetch
+git status
+git pull
+git diff
+vim fetch
+git diff
+vim fetch
+git diff
+git log --oneline
+git diff 5aabe90 567c2b7
+LS
+VIM fetch
+git add
+git add .
+git commit -m "Merge conflict"
+git push
+cat fetch
+$ git reflog
+git reflog
+touch stash
+git status
+git checkout main '
+git checkout main
+git checkout main feature
+git checkout feature
+git status
+git add stash
+git status
+git checkout feature
+git checkout main
+git stash list
+git checkout feature
+git stash list
+git status
+git stash
 
