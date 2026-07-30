@@ -1,0 +1,52 @@
+501  ssh-keygen -t rsa
+  502  cat /c/Users/MITHUN/.ssh/id_rsa.pub
+  503  git clone git@github.com:mithuns1986/github-learning.git
+  504  ls -ltrh
+  505  cd github-learning/
+  506  ls
+  507  cat README.md
+  508  ls -la
+  509  cat .gitignore
+  510  cd .git
+  511  ls -la
+  512  cd ..
+  513  ls -la
+  514  ls
+  515  vim README.md
+  516  git add README.md
+  517  git status
+  518  vim README.md
+  519  git status
+  520  git add README.md
+  521  git commit -m "Modified README.md file"
+  522  cat README.md
+  523  git push
+  524  git status
+  525  git branch
+  526  git pull
+  527  git status
+  528  git checkout feature
+  529  ls
+  530  cat README.md
+  531  git checkout -b feature/jira-1236
+  532  git checkout -b jira-1236
+  533  cat README.md
+  534  touch app.py
+  535  vim app.py
+  536  python3 app.py
+  537  git status
+  538  git app.py
+  539  git add app.py
+  540  git commit -m "Added app.py"
+  541  git push
+  542  git push --set-upstream origin jira-1236
+  543  git checkout main
+  544  git branch -d jira-1236
+  545  git branch
+  546  cd .git
+  547  ls
+  548  ls -l HEAD
+  549  ls
+  550  vim commands
+  551  history
+
